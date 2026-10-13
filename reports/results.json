@@ -1,0 +1,25 @@
+{
+  "selected_model": "Random forest",
+  "default_rate": 0.2212,
+  "test_metrics": {
+    "roc_auc": 0.7822894625783191,
+    "average_precision": 0.5647004781812135,
+    "brier": 0.13390259060685844,
+    "log_loss": 0.42785673354832343,
+    "precision_at_10pct": 0.7016666666666667,
+    "recall_at_10pct": 0.3172569706103994,
+    "lift_at_10pct": 3.1725697061039937
+  },
+  "bootstrap_95pct_auc_ap": [
+    [
+      0.7678444627961865,
+      0.5336717464934899
+    ],
+    [
+      0.7970073209270468,
+      0.5966364212999448
+    ]
+  ],
+  "repayment_rule_recall_at_10pct": 0.31499623210248684,
+  "overlapping_test_profiles": 13
+}
