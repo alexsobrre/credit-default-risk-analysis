@@ -1,5 +1,9 @@
 # Credit Default Risk: Turning Predictions into Review Priorities
 
+## Abstract
+
+This project examines how a bank could identify customers at risk of missing payments while reviewing only 10% of accounts. A predictive model captured 31.7% of defaults, compared with 31.5% for a simple repayment-history rule, suggesting that targeted review is useful but added model complexity may offer little practical benefit. The recommendation is to test the simple rule in a monitored pilot and measure whether the resulting outreach reduces losses.
+
 **How can a bank identify more customers at risk of default without increasing its account-review workload?**
 
 This project follows that question from data inspection through modeling and financial decision analysis. Using historical credit-card data, it compares reviewing customers at random, applying a simple repayment-history rule, and ranking customers with machine learning.
